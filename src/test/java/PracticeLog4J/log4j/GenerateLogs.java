@@ -72,6 +72,7 @@ public class GenerateLogs {
 		System.out.println(currenturl);
 		log.trace("Message is Traced in first class");
 		System.out.println("uuuuuu");
+		System.out.println("Bye Branch");
 	}
 	
 	
