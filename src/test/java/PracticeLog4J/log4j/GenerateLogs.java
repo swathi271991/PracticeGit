@@ -40,6 +40,8 @@ public class GenerateLogs {
 
 		log.info("Opening the URL");
 		driver.get("https://www.google.com/");
+		
+		System.out.println("Opening the google URL");
 	}
 
 	@Test
@@ -58,12 +60,14 @@ public class GenerateLogs {
 		log.error("URL is correct");
 		System.out.println(currenturl);
 		log.trace("Message is Traced in first class");
+		System.out.println("Verifying url is correct or not");
 	}
 	
 	@AfterTest
 	public void afterTest()
 	{
 		driver.close();
+		System.out.println("closing the browser");
 	}
 
 }
