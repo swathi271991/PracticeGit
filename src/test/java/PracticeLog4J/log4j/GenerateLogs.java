@@ -64,6 +64,18 @@ public class GenerateLogs {
 		System.out.println("hi hello namasthe addaaab");
 	}
 	
+	@Test
+	public void init4()
+	{
+		String currenturl = driver.getCurrentUrl();
+		log.error("URL is correct");
+		System.out.println(currenturl);
+		log.trace("Message is Traced in first class");
+		System.out.println("uuuuuu");
+		System.out.println("Bye child Branch");
+	}
+	
+	
 	@AfterTest
 	public void afterTest()
 	{
