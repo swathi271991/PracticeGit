@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15420" started-at="2022-03-01T23:14:28 IST" finished-at="2022-03-01T23:14:43 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15420" started-at="2022-03-01T23:14:28 IST" finished-at="2022-03-01T23:14:43 IST">
+      <class name="PracticeLog4J.log4j.PracticeDemo">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PracticeLog4J.log4j.PracticeDemo@7a30d1e6]" name="beforeTest" duration-ms="4920" started-at="2022-03-01T23:14:34 IST" finished-at="2022-03-01T23:14:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- PracticeLog4J.log4j.PracticeDemo -->
+      <class name="PracticeLog4J.log4j.GenerateLogs">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PracticeLog4J.log4j.GenerateLogs@47db50c5]" name="beforeTest" is-config="true" duration-ms="6350" started-at="2022-03-01T23:14:28 IST" finished-at="2022-03-01T23:14:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:PracticeLog4J.log4j.GenerateLogs@47db50c5]" name="init" duration-ms="7" started-at="2022-03-01T23:14:39 IST" finished-at="2022-03-01T23:14:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init2()[pri:0, instance:PracticeLog4J.log4j.GenerateLogs@47db50c5]" name="init2" duration-ms="6" started-at="2022-03-01T23:14:39 IST" finished-at="2022-03-01T23:14:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:PracticeLog4J.log4j.GenerateLogs@47db50c5]" name="afterTest" is-config="true" duration-ms="4106" started-at="2022-03-01T23:14:39 IST" finished-at="2022-03-01T23:14:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- PracticeLog4J.log4j.GenerateLogs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
