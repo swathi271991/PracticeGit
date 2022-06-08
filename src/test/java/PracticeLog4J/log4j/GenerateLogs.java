@@ -62,6 +62,7 @@ public class GenerateLogs {
 		log.trace("Message is Traced in first class");
 		System.out.println("Verifying url is correct or not");
 		System.out.println("hi hello namasthe addaaab");
+		System.out.println("Bye Bye");
 	}
 	
 	@Test
